@@ -1,12 +1,12 @@
-# _Paramore_
+# _Language Suggestion Survey_
 
-#### _Paramore, May 23, 2018_
+#### _Language Suggestion Survey, June 1, 2018_
 
-#### By _**Nick Rogers and Eliot Charette**_
+#### By _**Eliot Charette**_
 
 ## Description
 
-_This website displays the upcoming shows and information about Paramore._
+_This website has content and a survey which helps users choose which programming language is best suited for them._
 
 ## Setup/Installation Requirements
 
@@ -18,15 +18,14 @@ _No known bugs._
 
 ## Support and contact details
 
-_Nick Rogers email: amellocello@msn.com_
 _Eliot Charette email: eliotcharette@gmail.com_
 
 ## Technologies Used
 
-_Created with Atom editor.  Use any browser to view._
+_Created with Atom editor using CSS, HTML, JavaScripts, and J Query.  Use any browser to view._
 
 ### License
 
 *No license required*
 
-Copyright (c) 2018 **_Nick Rogers and Eliot Charette_**
+Copyright (c) 2018 **_Eliot Charette_**
