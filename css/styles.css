@@ -9,21 +9,18 @@ p {
 .font {
   font-family: sans-serif;
 }
+ul {
+  padding-left: 80px;
+}
 
 
 #js {
   display: none;
-  color: black;
-  background-color: yellow;
 }
 #csharp {
   display: none;
-  color: white;
-  background-color: purple;
 }
 
 #ruby {
   display: none;
-  color: white;
-  background-color: red;
 }
