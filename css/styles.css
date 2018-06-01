@@ -13,6 +13,7 @@ p {
 }
 ul {
   padding-left: 80px;
+  font-size: 15px;
 }
 
 
@@ -25,4 +26,7 @@ ul {
 
 #ruby {
   display: none;
+}
+img {
+  float: left;
 }
