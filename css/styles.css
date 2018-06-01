@@ -3,21 +3,22 @@ h1 {
   font-family: monospace;
   font-size: 45px;
 }
-p {
-  
-}
 
 
 
-
-#liberal {
+#js {
   display: none;
-  color: red;
-  background-color: blue;
+  color: black;
+  background-color: yellow;
+}
+#csharp {
+  display: none;
+  color: white;
+  background-color: purple;
 }
 
 #conservative {
   display: none;
-  color: blue;
+  color: white;
   background-color: red;
 }
