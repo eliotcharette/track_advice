@@ -11,9 +11,9 @@ $(function(){
     var add = marriage + healthcare + breitbart;
 
       if (add > 11) {
-        $('#conservative').show();
+        $('#js').show();
         $('#liberal').hide();
-      } else {
+      } else if{
         $('#liberal').show();
         $('#conservative').hide();
       }
