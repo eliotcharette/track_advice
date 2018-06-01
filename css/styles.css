@@ -2,24 +2,27 @@ h1 {
   text-align: center;
   font-size: 45px;
 }
+
 p {
   font-size: 20px;
   text-align: center;
   padding-left: 60px;
   padding-right: 60px;
 }
+
 .font {
   font-family: sans-serif;
 }
+
 ul {
   padding-left: 80px;
   font-size: 15px;
 }
 
-
 #js {
   display: none;
 }
+
 #csharp {
   display: none;
 }
@@ -27,6 +30,7 @@ ul {
 #ruby {
   display: none;
 }
+
 img {
   float: left;
 }

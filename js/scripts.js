@@ -10,21 +10,19 @@ $(function(){
 
     var add = jobs + difficult + speed + popular + tools + fundamentals;
 
-      if (add > 39) {
-        $('#js').show();
-        $('#csharp').hide();
-        $('#ruby').hide();
-      } else if (add < 16){
-        $('#ruby').show();
-        $('#js').hide();
-        $('#csharp').hide();
-      } else {
-        $('#csharp').show();
-        $('#js').hide();
-        $('#ruby').hide();
-      }
-
-
+    if (add > 39) {
+      $('#js').show();
+      $('#csharp').hide();
+      $('#ruby').hide();
+    } else if (add < 16){
+      $('#ruby').show();
+      $('#js').hide();
+      $('#csharp').hide();
+    } else {
+      $('#csharp').show();
+      $('#js').hide();
+      $('#ruby').hide();
+    }
     event.preventDefault();
   });
 });
