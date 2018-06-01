@@ -1,132 +1,137 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Course Suggestion</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-      <link href="css/styles.css" rel="stylesheet" type="text/css">
-      <script src="js/jquery-3.3.1.js"></script>
-      <script src="js/scripts.js"></script>
-  </head>
-  <body>
-    <div class="container">
-      <form id="formOne">
-        <h1>Programming Language Suggestion Generator</h1>
-        <p>Choosing a your first programming language can be a difficult choice for a number of reasons:</p>
-        <ul>
-          <li>The increasing amount and variety of languages to choose from</li>
-          <li>How dificult the language is to learn</li>
-          <li>How transferable the knowledge is to other languages</li>
-          <li>The current market demands (job opportunites) vs personal interests</li>
-        </ul>
-        <p>This survey incorporates all of these concerns in helping to lead you to a language that best suits you and your peronsonal and professional goals.</p>
-      <h2>Do you support Marriage equality?</h2>
-      <div class="radio">
-        <label>
-          <input type="radio" name="marriage" value="0" checked>
-          Yes
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="marriage" value="10">
-          No
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="marriage" value="5">
+<head>
+  <title>Course Suggestion</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    <form id="formOne">
+
+      <h1>Programming Language Suggestion Generator</h1>
+      <p>Choosing a your first programming language can be a difficult choice for a number of reasons:</p>
+      <ul>
+        <li>The increasing amount and variety of languages to choose from</li>
+        <li>How dificult the language is to learn</li>
+        <li>How transferable the knowledge is to other languages</li>
+        <li>The current market demands (job opportunites) vs personal interests</li>
+      </ul>
+      <p>This survey incorporates all of these concerns in helping to lead you to a language that best suits you and your peronsonal and professional goals.</p>
+
+      <div class="survey">
+
+        <h3>How important is the amount of employment opportunity for you?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="jobs" value="10" checked>
+            Very Important
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="jobs" value="5">
+            Important
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="jobs" value="0">
+            Not Important
+          </label>
+        </div>
+
+        <h2>How difficult would you like your first language to be?</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="difficult" value="0" checked>
+            More Difficult
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="difficult" value="10">
+            Difficult
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="difficult" value="5">
+            Less Difficult
+          </label>
+        </div>
+
+        <h2>How important the runtime speed?</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="breitbart" value="10" checked>
+            Very Important (very fast)
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="breitbart" value="5">
+            Important (fast)
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="breitbart" value="0">
+            Less Important (fast enough)
+          </label>
+        </div>
+
+        <h2>Do you support Marriage equality?</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="marriage" value="10" checked>
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="marriage" value="5">
+            No
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="marriage" value="0">
             On the fence
-        </label>
+          </label>
+        </div>
+
+        <h2>Do you support Marriage equality?</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="marriage" value="10" checked>
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="marriage" value="5">
+            No
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="marriage" value="0">
+            On the fence
+          </label>
+        </div>
       </div>
 
-    <h2>Do you support Universal Healthcare?</h2>
-    <div class="radio">
-      <label>
-        <input type="radio" name="healthcare" value="0" checked>
-        Yes
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="healthcare" value="10">
-        No
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="healthcare" value="5">
-          On the fence
-      </label>
-    </div>
-
-    <h2>Do you enjoy reading Breitbart?</h2>
-    <div class="radio">
-      <label>
-        <input type="radio" name="breitbart" value="50" checked>
-        Yes
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="breitbart" value="0">
-        No
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="breitbart" value="10">
-        On the fence
-      </label>
-    </div>
-
-    <h2>Do you support Marriage equality?</h2>
-    <div class="radio">
-      <label>
-        <input type="radio" name="marriage" value="0" checked>
-        Yes
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="marriage" value="10">
-        No
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="marriage" value="5">
-          On the fence
-      </label>
-    </div>
-
-    <h2>Do you support Marriage equality?</h2>
-    <div class="radio">
-      <label>
-        <input type="radio" name="marriage" value="0" checked>
-        Yes
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="marriage" value="10">
-        No
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="marriage" value="5">
-          On the fence
-      </label>
-    </div>
-
-    <button type="submit" name="Results" class="btn btn-success">Get results!</button>
+      <button type="submit" name="Results" class="btn btn-success">Get results!</button>
     </form>
     <div id="liberal" class="well">
-    Liberal!
+      Liberal!
     </div>
     <div id="conservative" class="well">
-    CONSERVATIVE!
+      CONSERVATIVE!
     </div>
   </div>
-  </body>
+</body>
 </html>
