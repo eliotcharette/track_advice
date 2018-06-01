@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+  font-family: monospace;
+  font-size: 45px;
+}
+p {
+  
+}
+
+
+
+
+#liberal {
+  display: none;
+  color: red;
+  background-color: blue;
+}
+
+#conservative {
+  display: none;
+  color: blue;
+  background-color: red;
+}
